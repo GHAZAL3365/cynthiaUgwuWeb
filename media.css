@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+  #sub-headings h3,
+  #sub-headings h4 {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .page2-content {
+    width: 100%;
+  }
+
+  #page3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 20px;
+  }
+  #page3-right {
+    width: 100%;
+    margin: 0;
+  }
+  #page3-right p {
+    font-size: 16px;
+  }
+
+  #page3-right button {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #subscribe {
+    margin-top: 0;
+    margin-bottom: 15vw;
+  }
+  #subscribe h4 {
+    font-size: 13px;
+  }
+  #subscribe a {
+    font-size: 15px;
+  }
+
+  #footer {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5vw;
+  }
+  #footer-right {
+    gap: 30px;
+  }
+}
